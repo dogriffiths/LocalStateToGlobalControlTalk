@@ -11,7 +11,7 @@ function App() {
                 'Content-Type': 'application/json'
             }
         };
-        fetch('/endpoint', options)
+        fetch(':8000/endpoint', options)
     };
     return (
     <div className="App">
